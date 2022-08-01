@@ -1,29 +1,17 @@
 {
-"name": "RegistrationExample",
-"version": "0.1.0",
+"name": "AvendaSegmentationExample",
+"version": "0.0.0",
 "keywords": [
-"registration",
-"longitudinal"
+"segmentation",
+"test"
 ],
-"shortdesc": "DSS tutorial service (deformable registration)",
-"longdesc": "Given a target image and a source image with labels, perform →registration and map labels from the source image to the target image",
+"shortdesc": "DSS example service (SITK segmentation)",
+"longdesc": "Given an MRI.mhd file, perform simple segmentation",
 "tags": [
 {
 "name": "Target",
 "type": "MainImage",
-"hint": "The anatomical image onto which you want to warp the segmentation",
-"required": true
-},
-{
-"name": "Source",
-"type": "OverlayImage",
-"hint": "The anatomical image from which you want to warp the segmentation",
-"required": true
-},
-{
-"name": "SourceSeg",
-"type": "OverlayImage",
-"hint": "The segmentation of the source image",
+"hint": "The anatomical image onto which you want to perform the segmentation",
 "required": true
 }
 ]
